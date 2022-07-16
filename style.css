@@ -395,6 +395,18 @@ hr{
     }
 }
 
+@media(max-width: 280px){
+    .box img {
+        width: 200px;;
+        height: 140px;
+    }
+    .section-pic img {
+        width: 200px;
+        height: 140px;
+    }
+   
+}
+
 @media(max-width: 968px){
     .mask-perso .container {
         display: flex;
@@ -448,6 +460,31 @@ hr{
         text-align: center;
     }
    
+}
+
+@media(max-width: 280px){
+    .perso-btn {
+        width: 200px;
+        height: 250px;
+        background-image: url("./images/create-shoes.jpg");
+        background-size: cover;
+    }    
+    .mask-btn {
+        width: 200px;
+        height: 250px;
+        background-image: url("./images/mask.jpg");
+        background-size: cover;
+    }
+    .personalize button {
+        margin-left: 35px;
+    }
+    .mask button {
+        margin-left: 35px;
+    }
+    .short-section2 .container p {
+        text-align: center;
+    }
+    
 }
 
 
