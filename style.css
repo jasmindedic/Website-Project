@@ -385,7 +385,7 @@ hr{
     }
 }
 
-@media(max-width: 346px){
+@media(max-width: 364px){
     .box img {
         width: 280px;
         height: 200px;
