@@ -66,7 +66,7 @@ body {
 .header .container {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url("./images/header-shoes.jpg");
+    background-image: url("./images/header-shoes-big.jpg");
     background-size: cover;
     color: #fff;
     display: flex;
@@ -335,8 +335,6 @@ hr{
 
 
 
-
-
 /* Media queries*/
 @media(max-width: 968px){
 
@@ -414,6 +412,26 @@ hr{
    
 }
 
+/*  Feature  */
+
+@media(max-width: 368px) {
+    .perso-btn {
+        width: 235px;
+        height: 300px;
+        background-image: url("./images/create-shoes.jpg");
+        background-size: cover;
+    }    
+    .mask-btn {
+        width: 235px;
+        height: 300px;
+        background-image: url("./images/mask.jpg");
+        background-size: cover;
+    }
+}
+
+
+
+
 @media(max-width: 968px){
 
     .footer{
@@ -438,4 +456,16 @@ hr{
 }
 
 
+/* Media querie for the header background image (Performance)*/
+@media(max-width: 800px){
+    .header .container {
+        background-image: url("./images/header-shoes-medium.jpg");
+    }
+   
+}
 
+@media(max-width: 400px){
+    .header .container {
+        background-image: url("./images/header-shoes-small.jpg");
+    }
+}
