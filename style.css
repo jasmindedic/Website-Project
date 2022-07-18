@@ -111,6 +111,10 @@ body {
     font-size: x-large;
 }
 
+.text-pic {
+    transition-delay: 2s;
+}
+
 /* Section-pic*/
 .section-pic img {
     width: 250px;
