@@ -23,3 +23,4 @@ shoppingButton.addEventListener("click", function(){
     window.location.href = "shop-page.html";
 });
  
+
