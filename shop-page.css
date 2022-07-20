@@ -32,13 +32,13 @@ body {
 }
 
 .navbar .logo {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: large;
     font-weight: bold;
 }
 
 .nav-icons {
-    margin-right: 12px;
+    margin-right: 15px;
 }
 
 .navbar a {
