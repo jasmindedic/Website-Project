@@ -106,23 +106,23 @@ body {
     color: #5352ed;
 }
 
-.item a {
+.addBtn {
+    margin-top: 10px;
     color: white;
     text-decoration: none;
     border: 2px solid #5352ed;
     border-radius: 12px;
     padding: 5px 8px;
     background-color: #5352ed;
+    cursor: pointer;
 }
 
-.item a:hover {
+.addBtn:hover {
     background-color: #1e90ff;
     transition: 0.7s ease;
 }
 
-.item h4 {
-    margin-top: 10px;
-}
+
 
 /* Media queries */
 @media(max-width: 950px){
